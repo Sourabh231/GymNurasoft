@@ -1,0 +1,207 @@
+.about-containt{
+    width: 100%;
+    ;
+    background-color: #000000;
+}
+
+.about-flex{
+   
+    display:flex;
+    margin-top: 100px;
+    
+}
+
+.img-gym{
+    margin:50px 60px;
+}
+
+.para-container{
+    color: #ffffff;
+    /* margin:146px 112px; */
+    margin-top: 110px;
+    margin-right: 112px;
+    
+    text-align: left;
+    
+}
+
+.about-heading{
+    color: #99ff32;
+    /* margin-top: 112px; */
+}
+
+.line{ 
+    margin-left: 112px;
+}
+
+.about-heading{
+    margin-left: 112px;
+}
+
+.services{
+    margin-top: 50px;
+    margin-left: 480px;
+    margin-right: 480px;
+}
+
+.service-Heading{
+    text-align: center;
+    color: #99ff32;
+}
+
+.service-para{
+    text-align: center;
+    color: #ffffff;
+}
+.card-container{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.Card{
+    width: 300px;
+    height:350px;
+    margin: 45px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+.card-img{
+    width: 300px;
+    height: 350px;
+}
+.Card-info{
+    background-color: #ffffff;
+    width: 290px;
+    height: 205px;
+    position: relative;
+    left: 30px;
+    bottom: 28px;
+    border: 1px solid #ffffff;
+    border-radius: 3px 3px 10px 10px;
+    
+}
+
+.header-info{
+    width: 288px;
+    background-color: #5e3ad4;
+    padding: 5px;
+} 
+
+.cardParaInfo{
+    color:#0000ff;
+    padding: 5px;
+}
+.flexbox{
+    display: flex;
+    margin-top: 12rem;
+    color: #ffffff;
+    justify-content: center;
+}
+
+.left-info{
+    margin-top: 20px;
+    width: 400px;
+}
+
+.right-image{
+    border: 1px solid #ffffff;
+    background-color: blue;
+    width: 850px;
+    margin-left: 100px;
+}
+
+.headinglbox{
+    color: #99ff32;
+}
+
+.paralbox{
+    font-size: 19px;
+}
+.bigImage{
+    margin-top: 100px;
+}
+
+.headingslider{
+    color:#99ff32
+}
+
+.leftside{
+    margin-left: 140px;
+    width: 710px;
+
+}
+
+.rightside{
+    margin-right: 130px;
+}
+.studiosym{
+    margin-left: 50px;
+}
+
+
+.span{
+    margin-left: 50px;
+    width: 400px;
+    margin-top: 30px;
+}
+
+.visit{
+    margin-left: 50px;
+}
+
+.headingslider{
+    width: 400px;
+    
+}
+
+.imagepara{
+    margin-top: 25px;
+}
+
+.name {
+    text-decoration: none;
+    position: relative;
+    bottom: 20px;
+  }
+  
+  .name::after {
+    content: "";
+    position: absolute;
+    bottom: -16px; /* Adjust the distance as needed */
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #ffffff;
+  }
+
+  .comment{
+    padding: 30px 200px;
+  }
+  
+  .companyInfo{
+    display: flex;
+  }
+
+  .form{
+    margin-top: 20px;
+    margin-left: 370px;
+  }
+
+  input{
+    width: 500px;
+    border-radius: 10px;
+    padding: 6px;
+    
+  }
+  .info{
+    padding-top: 100px;
+    margin-left: 140px;
+    width: 400px;
+    color: white;
+}
+
+.symbol{
+    display: inline-block;
+    
+}

@@ -1,0 +1,79 @@
+body{
+    width: 100%;
+    background-color: #5e3ad4;
+    opacity: 1;
+    /* position: fixed; */
+}
+
+
+.logo-menu{
+    margin: 20px 100px 20px 100px;
+    height: 500px;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-c{
+    display:flex;
+    flex-direction: column;
+}
+
+.jusify-content{
+    justify-content: space-between;
+}
+
+.menubar{
+    width: 36px;
+    position: relative;
+    top: 63px;
+    right: 45px;
+}
+.headingf{
+    width: 37rem;
+    margin-left: 100px;
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+.about-header{
+    margin-left: 100px;
+    font-size: 1rem;
+    width: 34rem;
+    color: #ffffff;
+}
+
+.buttons{
+    margin-left: 100px;
+}
+
+.commit_today{
+    margin-left: 90px;
+    padding: 10px 20px;
+}
+
+.Learn_More{
+    margin-left: 18px;
+    padding: 10px 20px;
+}
+
+.main-content{
+    height: 500px;
+    display: flex;
+    position: relative;
+    top: 200px;
+}
+
+.fright{
+    position: relative;
+    bottom: 400px;
+    left: 255px;
+    
+}
+.fleft{
+    position: relative;
+    bottom: 350px;
+    color: #ffffff;
+    width: 400px;
+    
+}
