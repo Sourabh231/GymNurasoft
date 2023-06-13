@@ -66,9 +66,10 @@ body{
 
 .fright{
     position: relative;
-    bottom: 609px;
-    left: 350px
+    bottom: 400px;
+    left: 255px;
 }
+
 .fleft{
     position: relative;
     bottom: 350px;
