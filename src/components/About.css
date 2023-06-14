@@ -18,7 +18,7 @@
 .para-container{
     color: #ffffff;
     /* margin:146px 112px; */
-    margin-top: 110px;
+    margin-top: 40px;
     margin-right: 112px;
     
     text-align: left;
@@ -27,15 +27,33 @@
 
 .about-heading{
     color: #99ff32;
+    text-align: center;
+    color: gold;
     /* margin-top: 112px; */
 }
 
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+.symheading{
+    font-size: 30px;
+    margin-left: -30px;
+}
+
 .line{ 
-    margin-left: 112px;
+    margin-left: 487px;
+    width: 1000px;
+    margin-top: 30px;
+    font-size: 24px;
 }
 
 .about-heading{
-    margin-left: 112px;
+    margin-left: 360px;
 }
 
 .services{
@@ -52,28 +70,32 @@
 .service-para{
     text-align: center;
     color: #ffffff;
+    font-size: 19px;
 }
 .card-container{
     width: 100%;
     margin: auto;
     display: flex;
     justify-content: center;
-    
+    flex-wrap: wrap;
+    gap: 150px;  
 }
+
 .Card{
     width: 300px;
-    height:350px;
-    margin: 45px;
+    height: 350px;
+    margin: 48px;
     border: 1px solid #ffffff;
     color: #ffffff;
 }
 .card-img{
-    width: 300px;
+    width: 384px;
     height: 350px;
+    border: 1px solid #ffffff;
 }
 .Card-info{
     background-color: #ffffff;
-    width: 290px;
+    width: 316px;
     height: 205px;
     position: relative;
     left: 30px;
@@ -84,14 +106,15 @@
 }
 
 .header-info{
-    width: 288px;
-    background-color: #5e3ad4;
+    width: 314px;
+    background-color: #d43aba;
     padding: 5px;
 } 
 
 .cardParaInfo{
-    color:#0000ff;
+    color: #000000;
     padding: 5px;
+    font-size: 17px;
 }
 .flexbox{
     display: flex;
@@ -120,7 +143,7 @@
     font-size: 19px;
 }
 .bigImage{
-    margin-top: 100px;
+    margin-top: -230px;
 }
 
 .headingslider{
@@ -180,12 +203,16 @@
   }
   
   .companyInfo{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #3c2a74;
+    height: 530px;
+
   }
 
   .form{
     margin-top: 20px;
-    margin-left: 370px;
+   margin-left: 140px
   }
 
   input{
@@ -204,4 +231,81 @@
 .symbol{
     display: inline-block;
     
+}
+
+.strengthofgym{
+    margin-top: 50px;
+    position: static;
+}
+
+.allcont{
+    position: relative;
+    bottom: 525px;
+    text-align: center;
+    color: white;
+    width: 870px;
+    left: 475px;
+}
+.symbols{
+    margin-top: 10px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+.infosym{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+
+#strength{
+    margin-bottom: 30px;
+    color: gold;
+}
+.Testmonials{
+    height: 1210px;
+    background-color: #e6baba;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin-top: 60px;
+    margin-left: 255px;
+}
+
+.box{
+    width: 630px;
+    height: 344px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px #888888;
+    color: #ffffff;
+    background-color: #3e3c3c;
+}
+
+.author{
+    padding: 20px 30px;
+    font-size: 22px;
+}
+
+.authorComm{
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.links{
+    margin-left: 250px;
+    margin-top: 10px;
+    padding-right: 50px;
+}
+a{
+    color: #99ff32;
+}
+
+a:hover{
+    color: rgb(208, 12, 247)
 }

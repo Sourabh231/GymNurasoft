@@ -16,6 +16,7 @@ function Home() {
   }
   return (
     <>
+    <section id='Home'>
       <div className='section-1'>
         <div className='logo-menu flex jusify-content'>
           <div className='logo-container'>
@@ -46,7 +47,7 @@ function Home() {
             </div>
             <div className='fright'>
 
-              <video style={{ width: '650px', height: '800px' }} autoPlay loop muted>
+              <video style={{ width: '800px', height: '800px' }} autoPlay loop muted>
                 <source src={exersise} type="video/mp4" />
                 {/* Add additional <source> elements for other video formats if needed */}
               </video>
@@ -57,6 +58,7 @@ function Home() {
         </div>
 
       </div>
+      </section>
       <About />
 
     </>

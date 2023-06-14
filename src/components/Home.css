@@ -29,6 +29,7 @@ body{
     position: relative;
     top: 63px;
     right: 45px;
+    cursor:pointer;
 }
 .headingf{
     width: 37rem;
@@ -38,7 +39,7 @@ body{
 }
 .about-header{
     margin-left: 100px;
-    font-size: 1rem;
+    font-size: 20px;
     width: 34rem;
     color: #ffffff;
 }
@@ -58,7 +59,7 @@ body{
 }
 
 .main-content{
-    height: 250px;
+    height: 340px;
     display: flex;
     position: relative;
     top: 200px;
@@ -67,7 +68,7 @@ body{
 .fright{
     position: relative;
     bottom: 600px;
-    left: 255px;
+    left: 400px;
 }
 
 .fleft{

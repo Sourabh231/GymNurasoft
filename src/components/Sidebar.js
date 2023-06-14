@@ -8,11 +8,12 @@ function Sidebar({ShowMenuBar}) {
       <div>
         <h2>
             <ul>
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Our Services</li>
-                <li>Career</li>
-                <li>Contact Us</li>
+                <li><a href='#Home' style={{textDecoration:'none'}}>Home</a></li>
+                <li><a href='#About' style={{textDecoration:'none'}}>About</a></li>
+                <li><a href='#Services' style={{textDecoration:'none'}}>Our Services</a></li>
+                <li><a href='#Strength' style={{textDecoration:'none'}}>Strength</a></li>
+                <li><a href='#Testimonial' style={{textDecoration:'none'}}>Testmonials</a></li>
+                <li><a href='#Contact-Us' style={{textDecoration:'none'}}>Contact Us</a></li>
             </ul>
         </h2>
       </div>
